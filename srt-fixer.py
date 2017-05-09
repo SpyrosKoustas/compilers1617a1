@@ -20,7 +20,7 @@ regex = r'([0-9][0-9]):([0-9][0-9]):([0-9][0-9]),([0-9][0-9][0-9]) --> ([0-9][0-
 rexp = re.compile(regex)
 
 # The following boolean is an error checking in case we don't find any time intput
-isTime = false
+isTime = False
 
 with open(args.fname,newline='') as ifp:	
 	for line in ifp:
