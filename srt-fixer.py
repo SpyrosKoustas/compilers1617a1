@@ -31,7 +31,7 @@ with open(args.fname,newline='') as ifp:
 		# and store in variables the matching objects
 		if m != None:
 			# We activate out boolean for the error checking, because we found a time input
-			isTime = true
+			isTime = True
 
 			# We are storing the matching objects into new variables, so that we can later add the time amount me want
 			# the numbers 0 and 1 define whether the time stamp is the start timestamp or the end timestamp
